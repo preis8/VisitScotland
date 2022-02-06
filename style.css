@@ -1,0 +1,574 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.45;
+}
+
+  /* --------------------HEAD SECTION OF EACH PAGE ----------------------*/
+  
+.siteTitle {
+  text-align: center;
+  color: white;
+  font-size: 4.25em;
+  font-family: "Brush Script MT";
+  background-color: #155008;
+}
+
+nav{
+  display: flex;
+  background: #258313;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+nav ul{
+  float:left;
+  margin-left: 160px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+  font-family: Copperplate;
+}
+
+nav ul li a{
+  color: #EDFFEC;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 30px;
+}
+
+nav ul li a.currentPage,a:hover{
+  transition: .40s;
+  background-color: #F0FDED;
+  color:#553E4E;
+  
+}
+ 
+/* Head Images of the different pages */
+
+.headsection#homepict {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+              url("./images/home/scotflag.jpg")  no-repeat center center / cover;
+}
+
+.headsection#historypict {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+              url("./images/history/mainHistory.jpg")  no-repeat center center / cover;
+}
+
+
+.headsection#citiespict {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+              url("./images/citiesplaces/citiespict.jpg")  no-repeat center center / cover;
+}
+
+
+.headsection#factspict {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+              url("./images/facts/facts.jpg")  no-repeat center center / cover;
+}
+
+
+.headsection#tactpict {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+              url("./images/topattractions/tactpict.jpg")  no-repeat center center / cover;
+}
+
+.headsection .flexbox {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+}
+.headsection .content h2 {
+  font-size: 4.08rem;
+  margin-bottom: 1.85rem;
+  color: #d8ebff;
+  text-align: left;
+}
+
+.headsection .content p {
+  font-size: 1.30rem;
+  max-width: 100%;
+  color: #def5f9;
+}
+
+/* +++++++++++++++++ OUTTER INNER AND CONTENT BIG SECTIONS +++++++++++++++++ */
+
+#OutterBigMainSection {
+  background-color: #C2F7B6;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+#InnerBigMainSection {
+  background-color: #F0FDED;
+  margin-left: 115px;
+  margin-right: 95px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 30px;
+  max-width: 100%;
+}
+
+#contentSection {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+/* ++++++++++++++++++++++ DEFINITION OF FLEXBOXES +++++++++++++++++++++++ */
+
+.subsectionContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1500px;
+}
+
+.subsectionContainer div {
+  width: 525px;
+  margin: 15px;
+  padding: 10px;
+  text-align: justify;
+  line-height: 2.0;
+}
+
+#jacobites .subsectionContainer div {
+  width: 325px;
+  margin: 15px;
+  padding: 10px;
+  text-align: justify;
+  line-height: 2.0;
+}
+
+#jacobites .subsectionContainer .sectionTitle {
+  width: 1200px;
+  font-size: 2.4em;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 50px;
+  line-height: 1.0;
+  color: #195C0A;
+  background-color: #C2F7B6;
+  text-align: center;
+}
+
+.subsectionContainer .sectionTitle {
+  width: 1200px;
+  font-size: 2.4em;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 50px;
+  line-height: 1.0;
+  color: #195C0A;
+  background-color: #C2F7B6;
+  text-align: center;
+}
+
+.subsectionContainer .sectionReferences {
+  width: 1200px;
+  font-size: 0.85em;
+  line-height: 2.0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.subsectionContainer .thirdText {
+  width: 1200px;
+  text-align: justify;
+  line-height: 2.0;
+  margin: 15px;
+  padding: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.subsectionContainer #credit {
+  width: 1150px;
+  margin: 0px;
+  padding:0px;
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  .subsectionContainer div {
+    width: 100%;
+}
+
+  #jacobites .subsectionContainer div {
+    width: 100%;
+  }
+
+  .tripleContainer div {
+    min-width: 300px;
+  }
+}
+
+.subsectionContainer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subsectionContainer ul li::before {
+  content: "→";
+  padding-right: 8px;
+  color: darkgreen;
+}
+
+.supress li:nth-child(3) {
+  list-style-type:none;
+}
+
+.supress2 li:nth-child(2) {
+  list-style-type:none;
+}
+
+div #iframe {
+  width: 1200px;
+}
+
+#iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+#iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* containers for triple image in a line */
+
+.tripleContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1500px;
+}
+
+.tripleContainer div {
+  width: 26%;
+  height: 300px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.tripleContainer div:hover {
+  background-color: #195C0A;
+  color:#F0FDED;
+  transform: scale(1.2);
+}
+
+.tripleContainer div img{
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+  border: 3.5px solid #4D0423;
+  align-self: center;
+  transition: transform .9s;
+}
+
+@media (max-width: 900px) {
+  .tripleContainer div:hover {
+  transform: scale(1.05);
+  }
+}
+/* ++++++++++++++++ IMAGES +++++++++++++ */
+
+.sectionPicture img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 350px;
+}
+
+.sectionPicture p {
+  text-align: center;
+  font-weight: 900;
+}
+
+#scotlandmap {
+  height: 300px;
+  border-radius: 10px;
+  border: 4px solid #0F3706;
+  padding: 3px;
+}
+
+#edwardScots {
+  height: 475px;
+  border-radius: 10px;
+  border: 5px solid black;
+  padding: 5px;
+}
+
+#maryPict {
+  border: 5px solid #A21640;
+  padding: 5px;
+  border-radius: 10px;
+  height: 500px;
+}
+
+#emigrants {
+  height: 625px;
+  border: 5px solid #7AA1CD;
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 355px;
+}
+
+#lochness,#fwil,#schigh,#edbg, #iskye, #stlg {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 2px solid green;
+  max-width: 550px;
+}
+
+
+/* specific styles */
+#reasonsList ol {
+  list-style-position: inside;
+}
+
+#wherePoints {
+  /* align-self used to center the points in the middle of the flexbox-item */
+  align-self: center;
+}
+
+#wherePoints ul{
+  list-style-type: none;
+}
+
+#goExplore {
+  text-align: center;
+  color: #89023E;
+}
+
+#textSource{
+  text-align: right;
+  font-size: 0.9em;
+  margin-top: 15px;
+}
+
+.source {
+  font-size: 0.6em;
+  font-family: "Times new Roman";
+}
+
+.source a {
+  color: #3CDC18;
+}
+
+.source a:hover {
+  background-color: #195C0A;
+}
+
+.leg {
+  font-weight: 600;
+  font-family: georgia;
+}
+
+#backtop {
+  color: white;
+  line-height: 0.5;
+}
+
+#backtop:hover {
+  text-decoration: underline;
+  transition: 0.0s;
+  background-color: #155008;
+}
+
+/* +++++++++++++++++ TABLES ++++++++++++++ */
+
+/* main page table */
+
+.subsectionContainer .sectionTable {
+  width: 1200px;
+}
+
+.subsectionContainer .sectionTable table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even){ 
+  background-color: #B2F5A3;
+}
+
+tr:nth-child(odd){ 
+  background-color: #E0FBDA;
+}
+
+
+/* facts page - cities table */
+
+#citiesHab {
+  width: 100%;
+  border: 3px solid #14591D;
+}
+
+#citiesHab th, #eventsTable th {
+  background-color: #14591D;
+}
+
+/* facts page - events table */
+
+#eventsTable {
+  width: 130%;
+  max-width: 1200px;
+}
+
+th#evTitle {
+  width: 15.5%;
+}
+
+th#evMon {
+  width: 9.5%;
+}
+
+#events {
+  border: 3.5px solid #14591D;
+  max-width: 100%;
+}
+
+#events th, #events td {
+  border: 2px solid #14591D;
+  padding: 8px;
+  text-align: center;
+}
+
+#events tr:nth-child(even){ 
+  background-color: #8BE597;
+}
+
+#events tr:nth-child(odd){ 
+  background-color: #D8FEDF;
+}
+/* +++++++++++++++++ BOOKMARKS ++++++++++++++ */
+
+#bookmarksSec .subsectionContainer{
+  display: flex;
+  height: auto;
+  max-width: 1500px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#bookmarksSec .subsectionContainer #bookmarks {
+  background: #E0FBDA;
+  width: 1200px;
+  padding-left: 70px;
+  border: 2px solid #144908;  
+}
+
+#bookmarks ul{
+  margin: 2px;
+}
+
+#bookmarks ul li::before {
+  content: "";
+}
+
+#bookmarks ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 0px;
+  font-family: Georgia;
+}
+
+#bookmarks ul li a{
+  color: #144908;
+  font-size: 20px;
+  padding: 5px 5px;
+  border-radius: 15px;
+}
+
+#bookmarks a:hover{
+  transition: .1s;
+  background-color: #144908;
+  color: #FAFAFA;
+}
+
+.subsectionContainer .backBook,#jacobites .subsectionContainer .backBook {
+  width: 1200px;
+  font-size: 1em;
+  line-height: 2.0;
+  margin: 1px;
+  padding: 1px;
+  text-align: center;
+}
+
+.subsectionContainer .backBook a:visited, #jacobites .subsectionContainer .backBook a:visited {
+  color:green;
+}
+
+.subsectionContainer .backBook a:hover, #jacobites .subsectionContainer .backBook a:hover {
+  text-decoration: underline overline;
+}
+
+/* +++++++++++++++++ FOOTER +++++++++++++++++ */
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #155008;
+    color: white;
+    line-height: 2.0
+}
+
+footer span {
+    font-weight: bold;
+}
