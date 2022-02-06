@@ -1,9 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
   }
-  
+
 body {
     font-family: sans-serif;
     font-size: 18px;
@@ -11,7 +15,7 @@ body {
 }
 
   /* --------------------HEAD SECTION OF EACH PAGE ----------------------*/
-  
+
 .siteTitle {
   text-align: center;
   color: white;
@@ -26,7 +30,7 @@ nav{
   height: auto;
   width: 100%;
   justify-content: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 nav ul{
@@ -53,22 +57,22 @@ nav ul li a.currentPage,a:hover{
   transition: .40s;
   background-color: #F0FDED;
   color:#553E4E;
-  
+
 }
- 
+
 /* Head Images of the different pages */
 
 .headsection#homepict {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)),
               url("./images/home/scotflag.jpg")  no-repeat center center / cover;
 }
 
 .headsection#historypict {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)),
               url("./images/history/mainHistory.jpg")  no-repeat center center / cover;
 }
 
@@ -76,7 +80,7 @@ nav ul li a.currentPage,a:hover{
 .headsection#citiespict {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)),
               url("./images/citiesplaces/citiespict.jpg")  no-repeat center center / cover;
 }
 
@@ -84,7 +88,7 @@ nav ul li a.currentPage,a:hover{
 .headsection#factspict {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)),
               url("./images/facts/facts.jpg")  no-repeat center center / cover;
 }
 
@@ -92,7 +96,7 @@ nav ul li a.currentPage,a:hover{
 .headsection#tactpict {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)), 
+  background: linear-gradient(rgba(0,0,0,0.6301295518207283), rgba(0,0,0,0.3640231092436975)),
               url("./images/topattractions/tactpict.jpg")  no-repeat center center / cover;
 }
 
@@ -260,7 +264,7 @@ div #iframe {
 #iframe-container{
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
 }
 #iframe-container iframe{
@@ -444,11 +448,11 @@ th {
   color: white;
 }
 
-tr:nth-child(even){ 
+tr:nth-child(even){
   background-color: #B2F5A3;
 }
 
-tr:nth-child(odd){ 
+tr:nth-child(odd){
   background-color: #E0FBDA;
 }
 
@@ -490,11 +494,11 @@ th#evMon {
   text-align: center;
 }
 
-#events tr:nth-child(even){ 
+#events tr:nth-child(even){
   background-color: #8BE597;
 }
 
-#events tr:nth-child(odd){ 
+#events tr:nth-child(odd){
   background-color: #D8FEDF;
 }
 /* +++++++++++++++++ BOOKMARKS ++++++++++++++ */
@@ -511,7 +515,7 @@ th#evMon {
   background: #E0FBDA;
   width: 1200px;
   padding-left: 70px;
-  border: 2px solid #144908;  
+  border: 2px solid #144908;
 }
 
 #bookmarks ul{
